@@ -54,6 +54,7 @@ h1, h2, h3, h4, h5 {
 }
 section {
     margin-top: 8rem;
+    height: 100vh;
 }
 section > h2, section > h5 {
     text-align: center;
@@ -99,7 +100,7 @@ img {
 }
 /*============ Media Queries (Medium Devices) ================== */
 @media screen and (max-width: 1024px) {
-    .container {
+    .main-container {
         width: var(--container-width-md);
     }
     section {
@@ -108,7 +109,7 @@ img {
 }
 /*============ Media Queries (Small Devices) ================== */
 @media screen and (max-width: 600px) {
-    .container {
+    .main-container {
         width: var(--container-width-sm);
     }
     section > h2{
