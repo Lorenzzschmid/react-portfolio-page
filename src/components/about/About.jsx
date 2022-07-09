@@ -9,7 +9,7 @@ const About = () => {
   return (
     <section id='about'>
     
-      <h5>Side-Facts</h5>
+      <h5 className='upper__text'>Side-Facts</h5>
       <h2>About Me</h2>
 
       <div className="container about__container">
@@ -44,7 +44,7 @@ const About = () => {
             </div>
 
             <p>
-              What the fuck is wrong with you, ...
+              What the fuck is wrong with you, I will find you and I will make a page for you, eben if I have to go to prison you damn fucktard, just that you know bitch. I am a god damn serious developer man! Just give me your money and let me decide what the fuck you need, and I guess you need a big fucking page, that looks terrible but will be damn expensive. 
             </p>
 
             <a href="#contact" className='btn btn-primary'>Happy to hear from you</a>

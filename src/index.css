@@ -38,12 +38,15 @@ body {
     background: var(--color-bg); 
     color: var(--color-white); 
     line-height: 1.7; 
-    background-image: url(../src/assets/bg-texture.png)
+    background-image: url(../src/assets/bg-texture.png);
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 /*===================Project Styling for main Container============= */
 .main-container {
 width: var(--container-width-lg); 
 margin: 0 auto;
+
 }
 h1 {
     font-size: 2.5rem;

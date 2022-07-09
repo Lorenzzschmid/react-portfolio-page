@@ -1,13 +1,15 @@
 .about__container {
     display: grid;
-    grid-template-columns: 35% 40%;
-    gap: 15%;
+    grid-template-columns: 25% 30%;
+    gap: 20%;
+    justify-content: center;
+    /* margin-right: 5rem;
+    margin-left: 8rem; */
 }
 .about__me {
     margin-top: 2.5rem;
-    margin-left: 17rem;
-    width: 53%;
-    height: 108%;
+    width: 83%;
+    height: 70%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(
@@ -18,6 +20,9 @@
     );
     display: grid;
     place-items: center;
+}
+.upper__text {
+    padding-top: 5rem;
 }
 .about__me-image {
     width: 20rem;
