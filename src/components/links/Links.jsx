@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './links.css'; 
 
 const Links = () => {
   return (
-    <div>Links</div>
+    <section id='links'>Links</section>
   )
 }
 
