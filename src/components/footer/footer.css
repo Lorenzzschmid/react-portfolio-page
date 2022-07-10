@@ -33,3 +33,7 @@ footer a {
     color: var(--color-bg);
     border-color: var(--color-bg);
 }
+.footer__copyright {
+    margin-bottom: 4rem;
+    color: var(--color-bg);
+}
