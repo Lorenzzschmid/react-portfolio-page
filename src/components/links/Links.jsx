@@ -7,6 +7,18 @@ import Link4 from '../../assets/link4.png';
 import Link5 from '../../assets/link5.png'; 
 import Link6 from '../../assets/link6.png';  
 
+//import Swiper core and required modules
+import {Navigation, Pagination, Scrollbar, A11y} from 'swiper'; 
+
+import {Swiper, SwiperSlide} from 'swiper/react'; 
+
+//Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar'; 
+
+
 const links = [
   {
     name: Link1,
