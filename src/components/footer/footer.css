@@ -16,6 +16,13 @@ footer a {
 }
 .permalinks {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto 3rem;
+}
+.footer__socials {
+    display: flex;
     justify-content: center;
     gap: 1rem;
     margin-bottom: 4rem;
@@ -37,3 +44,14 @@ footer a {
     margin-bottom: 4rem;
     color: var(--color-bg);
 }
+
+ /*============ Media Queries (Small Devices) ================== */
+ @media screen and (max-width: 600px) {
+     .permalinks {
+        flex-direction: column;
+        gap: 1.5rem;
+     }
+     .footer__socials {
+        margin-bottom: 2.6rem;
+     }
+ }
