@@ -1,25 +1,41 @@
 .container.links__container {
-    width: 40%;
+  width: 40%;
 }
 .link__preview {
-    width: 4rem;
-    aspect-ratio: 1/1;
-    overflow: hidden;
-    border-radius: 50%;
-    margin: 0 auto 1rem;
-    border: 0.4rem solid var(--color-main);
+  width: 4rem;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  border: 0.4rem solid var(--color-main);
 }
 .link {
-    background: var(--color-bg-other); 
-    text-align: center;
-    padding: 2rem;
-    border-radius: 2rem;
-    user-select: none;
+  background: var(--color-bg-other);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 2rem;
+  user-select: none;
 }
 .lnk__recommend {
-    color: var(--color-bright);
-    font-weight: 300;
-    display: block;
-    width: 80%;
-    margin: 0.8rem auto 0;
+  color: var(--color-bright);
+  font-weight: 300;
+  display: block;
+  width: 80%;
+  margin: 0.8rem auto 0;
+}
+/*============ Media Queries (Medium Devices) ================== */
+@media screen and (max-width: 1024px) {
+  .container.links__container {
+    width: 60%;
+  }
+}
+
+/*============ Media Queries (Small Devices) ================== */
+@media screen and (max-width: 600px) {
+  .container.links__container {
+    width: var(--container-width-sm);
+  }
+  .lnk__recommend {
+    width: var(--container-width-sm);
+  }
 }
