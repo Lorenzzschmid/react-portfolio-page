@@ -27,6 +27,9 @@
   width: 80%;
   margin: 0.8rem auto 0;
 }
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background: var(--color-main); 
+}
 /*============ Media Queries (Medium Devices) ================== */
 @media screen and (max-width: 1024px) {
   .container.links__container {
