@@ -8,7 +8,7 @@ import {SiTryhackme} from 'react-icons/si';
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>EGATOR</a>
+      <a href="#" className='footer__logo'>Lorenz Schmid</a>
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
